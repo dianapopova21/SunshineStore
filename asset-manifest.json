@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sunshineStore/static/css/main.32e23c1e.css",
-    "main.js": "/sunshineStore/static/js/main.e26087b3.js",
+    "main.css": "/sunshineStore/static/css/main.dd076a2b.css",
+    "main.js": "/sunshineStore/static/js/main.0a55ef97.js",
     "static/media/sweater.png": "/sunshineStore/static/media/sweater.8f7fc23da15a9152d78f.png",
     "static/media/tshirts.png": "/sunshineStore/static/media/tshirts.cf15f18cadd767b7a970.png",
     "static/media/outerwear.png": "/sunshineStore/static/media/outerwear.32b349945b8d15394779.png",
@@ -54,11 +54,11 @@
     "static/media/weird.png": "/sunshineStore/static/media/weird.b40e65e8a49e1829aea6.png",
     "static/media/sad-face.png": "/sunshineStore/static/media/sad-face.4ba22abd8f62dc955ed6.png",
     "index.html": "/sunshineStore/index.html",
-    "main.32e23c1e.css.map": "/sunshineStore/static/css/main.32e23c1e.css.map",
-    "main.e26087b3.js.map": "/sunshineStore/static/js/main.e26087b3.js.map"
+    "main.dd076a2b.css.map": "/sunshineStore/static/css/main.dd076a2b.css.map",
+    "main.0a55ef97.js.map": "/sunshineStore/static/js/main.0a55ef97.js.map"
   },
   "entrypoints": [
-    "static/css/main.32e23c1e.css",
-    "static/js/main.e26087b3.js"
+    "static/css/main.dd076a2b.css",
+    "static/js/main.0a55ef97.js"
   ]
 }
