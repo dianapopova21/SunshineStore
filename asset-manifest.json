@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/sunshineStore/static/css/main.dd076a2b.css",
+    "main.css": "/sunshineStore/static/css/main.ba870c64.css",
     "main.js": "/sunshineStore/static/js/main.0a55ef97.js",
     "static/media/sweater.png": "/sunshineStore/static/media/sweater.8f7fc23da15a9152d78f.png",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/sunshineStore/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/tshirts.png": "/sunshineStore/static/media/tshirts.cf15f18cadd767b7a970.png",
     "static/media/outerwear.png": "/sunshineStore/static/media/outerwear.32b349945b8d15394779.png",
     "static/media/sportwear.png": "/sunshineStore/static/media/sportwear.b482566792654d349fa8.png",
@@ -10,6 +11,7 @@
     "static/media/pants.png": "/sunshineStore/static/media/pants.4543c089884334ebf575.png",
     "static/media/turquoise-outer.jpg": "/sunshineStore/static/media/turquoise-outer.7b21d6e58677f71a87b9.jpg",
     "static/media/kensfeet-tshirt.jpg": "/sunshineStore/static/media/kensfeet-tshirt.8a45646caca957db4007.jpg",
+    "static/media/YesevaOne-Regular.ttf": "/sunshineStore/static/media/YesevaOne-Regular.77e7411de8c57683e277.ttf",
     "static/media/animeboyz-tshirt.jpg": "/sunshineStore/static/media/animeboyz-tshirt.def3d28ea5fcabe9cb36.jpg",
     "static/media/anime-top.jpg": "/sunshineStore/static/media/anime-top.f51cb6fc17d8f2da4da9.jpg",
     "static/media/blue-california-anime-hoodie.jpg": "/sunshineStore/static/media/blue-california-anime-hoodie.dfb3a852f2b08214ac38.jpg",
@@ -48,17 +50,18 @@
     "static/media/white-pink-outer.jpg": "/sunshineStore/static/media/white-pink-outer.eecd9e58cf048f11d1c6.jpg",
     "static/media/brown-dress.jpg": "/sunshineStore/static/media/brown-dress.8ad9329dad35e694a556.jpg",
     "static/media/cute-white-pants.jpg": "/sunshineStore/static/media/cute-white-pants.3ff5c9a72d9853cdd584.jpg",
+    "static/media/Montserrat-Bold.ttf": "/sunshineStore/static/media/Montserrat-Bold.733964aa5261b1af4852.ttf",
     "static/media/sleepness.png": "/sunshineStore/static/media/sleepness.3b5e6bc886b2b4b50d5b.png",
     "static/media/sadness-face.png": "/sunshineStore/static/media/sadness-face.c2141bf7dd3bdcea60ef.png",
     "static/media/sadness-face2.png": "/sunshineStore/static/media/sadness-face2.435d520115b650a7fbb0.png",
     "static/media/weird.png": "/sunshineStore/static/media/weird.b40e65e8a49e1829aea6.png",
     "static/media/sad-face.png": "/sunshineStore/static/media/sad-face.4ba22abd8f62dc955ed6.png",
     "index.html": "/sunshineStore/index.html",
-    "main.dd076a2b.css.map": "/sunshineStore/static/css/main.dd076a2b.css.map",
+    "main.ba870c64.css.map": "/sunshineStore/static/css/main.ba870c64.css.map",
     "main.0a55ef97.js.map": "/sunshineStore/static/js/main.0a55ef97.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd076a2b.css",
+    "static/css/main.ba870c64.css",
     "static/js/main.0a55ef97.js"
   ]
 }
