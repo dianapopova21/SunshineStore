@@ -1,0 +1,69 @@
+@import "./../../styles/variables.scss";
+
+.filters_container {
+  font-family: $main-font;
+  border: 1px solid $dark-green;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 0 auto 20px;
+  max-width: 220px;
+  max-height: 500px;
+}
+
+.filter_header {
+  display: flex;
+  font-family: $title-font;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.clear_filters {
+  font-size: 14px;
+  color: $dark-green;
+  cursor: pointer;
+}
+
+.price_section {
+  display: flex;
+  flex-direction: row;
+}
+
+.price_section p {
+  margin: auto 10px;
+}
+
+.price_section input {
+  background-color: $light-brown;
+  font-family: $main-font;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.price_section input[type="number"]::-webkit-inner-spin-button,
+.price_section input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.filter_divider {
+  border-top: 1px solid #ccc;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.clear_btn {
+  background: none;
+  color: inherit;
+  font-size: 14px;
+  font-family: $main-font;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  margin-left: 13px;
+}

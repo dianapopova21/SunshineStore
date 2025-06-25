@@ -1,0 +1,50 @@
+@import "../../../styles/variables";
+
+.product_card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  position: relative;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.top_border {
+  height: 1px;
+  background-color: $dark-green;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.product_info {
+  display: flex;
+  align-items: center;
+}
+
+.product_image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product_name{
+  font-family: $title-font;
+}
+
+.product_size, .product_quantity, .product_price {
+  font-family: $main-font;
+  margin: 5px 0;
+}
+
+.delete_icon {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 26px;
+}

@@ -1,0 +1,17 @@
+@import "./../../styles/variables.scss";
+
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+}
+
+.image {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}

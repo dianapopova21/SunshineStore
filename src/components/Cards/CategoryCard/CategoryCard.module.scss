@@ -1,0 +1,30 @@
+@import "../../../../src/styles/variables";
+
+.category_card {
+  width: 240px;
+  flex: 0 0 auto;
+  text-align: center;
+  transition: transform 0.4s ease;
+}
+
+.category_card:hover {
+  transform: scale(1.02);
+}
+
+.category_image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.category_title {
+  text-decoration: none;
+  color: $dark-green;
+  font-family: $main-font;
+  font-size: 18px;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}

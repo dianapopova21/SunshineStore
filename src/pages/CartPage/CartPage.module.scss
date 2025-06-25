@@ -1,0 +1,90 @@
+@import "./../../styles/variables.scss";
+
+.cartPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.cartContent {
+  display: flex;
+  flex-direction: row; /* Изменим на row для больших экранов */
+  justify-content: flex-start;
+  flex-grow: 1;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 1200px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cartItemsSection {
+  flex: 0.7;
+  padding-right: 20px;
+}
+
+.clearCartButton {
+  margin-bottom: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.clearCartButton span {
+  cursor: pointer;
+  color: $green;
+  font-family: $main-font;
+  font-size: 16px;
+}
+
+.orderSummarySection {
+  flex: 0.3;
+}
+
+.summarySection h3 {
+  font-family: $title-font;
+  margin-bottom: 20px;
+}
+
+.summarySection p {
+  font-family: $main-font;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.checkoutButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkoutButton:hover {
+  background-color: #45a049;
+}
+
+.emptyCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+}
+
+.image {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .cartContent {
+    flex-direction: column; /* Для мобильных экранов блоки будут располагаться по вертикали */
+  }
+}

@@ -1,0 +1,160 @@
+@import "../../../src/styles/variables";
+
+.productCard {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.productContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 950px;
+  padding: 20px;
+  line-height: 1.3;
+}
+
+.productImage {
+  flex: 0 0 200px;
+  margin-right: 40px;
+}
+
+.img {
+  max-width: 450px;
+}
+
+.title {
+  font-family: $title-font;
+  font-size: 32px;
+}
+
+.productDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-family: $main-font;
+}
+
+.productDescription {
+  margin-top: 20px;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: flex-start;
+  width: fit-content;
+}
+
+.favoriteIcon {
+  font-size: 30px;
+  cursor: pointer;
+  color: #FF6347;
+}
+
+.cartIcon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.checkboxInput {
+  display: none;
+}
+
+.checkboxSquare {
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  border: 1px solid $dark-green;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkboxInput:checked + .checkbox-square {
+  background-color: $light-brown;
+}
+
+.checkboxLabel span {
+  margin-left: 5px;
+}
+
+.cartMessage {
+  position: fixed;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 1, 0, 0.8);
+  color: #fff;
+  font-family: $main-font;
+  padding: 10px 15px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: fadeInOut 3s ease-out;
+  pointer-events: none;
+}
+
+.cartMessage.hidden {
+  opacity: 0;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .productCard {
+    flex-direction: column; /* Карточка становится вертикальной */
+    align-items: center;
+    padding: 0 20px; /* Добавляем отступы сбоку */
+  }
+
+  .productContent {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .productImage {
+    flex: 0 0 100%; /* Растягиваем изображение на 100% на маленьких экранах */
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center; /* Центрируем картинку */
+  }
+
+  .img {
+    width: 80%; /* Изображение немного уменьшаем на мобильных */
+    margin: 0 auto; /* Центрируем изображение */
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .btnContainer {
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .favoriteIcon, .cartIcon {
+    font-size: 25px;
+  }
+}

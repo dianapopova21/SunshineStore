@@ -1,0 +1,15 @@
+@import "../../../src/styles/variables";
+
+.summarySection {
+  flex: 0.35;
+  border: 1px solid $dark-green;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: $cream-white;
+  max-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  font-family: $main-font;
+}

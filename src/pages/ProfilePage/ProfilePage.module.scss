@@ -1,0 +1,23 @@
+@import "./../../styles/variables.scss";
+
+.profile_page {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile_links {
+  margin-top: 20px;
+  font-family: $main-font;
+}
+
+.profile_p {
+  font-family: $main-font;
+  color: #888;
+}
+
+.profile_links a {
+  display: block;
+  margin: 10px 0;
+  color: #000;
+  text-decoration: none;
+}

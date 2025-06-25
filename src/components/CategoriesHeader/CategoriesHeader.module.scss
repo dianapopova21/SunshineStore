@@ -1,0 +1,36 @@
+@import "../../../src/styles/variables";
+
+.category_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid $dark-green;
+  border-bottom: 1px solid $dark-green;
+  padding: 10px 0;
+}
+
+.category_list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category_list li {
+  text-decoration: none;
+  font-family: $main-font;
+  margin-right: 10px;
+  color: $dark-green;
+  margin-left: 20px;
+}
+
+.category_divider {
+  flex: 1;
+}
+
+
+@media (max-width: 768px) {
+  .category_menu {
+    display: none;
+  }
+}

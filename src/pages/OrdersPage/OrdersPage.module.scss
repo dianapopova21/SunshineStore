@@ -1,0 +1,83 @@
+@import "./../../styles/variables.scss";
+
+.cartPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.cartContent {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.cartItemsSection {
+  flex: 0.55;
+  padding-right: 20px;
+  margin-right: 10px;
+}
+
+
+.summarySection h3 {
+  font-family: $title-font;
+  margin-bottom: 20px;
+}
+
+.summarySection p {
+  font-family: $main-font;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.checkoutButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkoutButton:hover {
+  background-color: #45a049;
+}
+
+
+.clear-cart-button {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.clear-cart-button button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.clear-cart-button button:hover {
+  background-color: #d32f2f;
+}
+
+.emptyOrders {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+}
+
+.image {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}

@@ -1,0 +1,33 @@
+
+$cream-white: #FDF8E3;
+$green: #475D21;
+$dark-green: #212B0F;
+$light-brown: #D6C3AB;
+$orange: #D5995B;
+$dark-orange: #CB8F51;
+
+@font-face {
+  font-family: 'Yeseva One';
+  src: url('../assets/fonts/YesevaOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+$title-font: 'Yeseva One', serif;
+$main-font: 'Montserrat', sans-serif;
+
+

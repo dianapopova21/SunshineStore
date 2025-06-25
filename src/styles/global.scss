@@ -1,0 +1,22 @@
+@import "variables";
+
+.notification {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  font-family: $main-font;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+  opacity: 1;
+  transition: opacity 3s ease-in-out;
+}
+
+.error_message {
+  color: red;
+  margin-top: 10px;
+}
+

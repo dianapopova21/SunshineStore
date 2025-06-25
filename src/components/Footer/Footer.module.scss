@@ -1,0 +1,54 @@
+@import "../../../src/styles/variables";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $light-brown;
+  padding: 20px 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.about_us,
+.contact_info {
+  font-family: $main-font;
+  width: 45%;
+}
+
+.footer_title {
+  font-family: $title-font;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact_info p {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .footer_title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .about_us,
+  .contact_info {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .contact_info p {
+    font-size: 14px;
+  }
+}

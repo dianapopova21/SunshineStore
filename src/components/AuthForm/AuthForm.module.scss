@@ -1,0 +1,124 @@
+@import "../../../src/styles/variables";
+
+.container {
+  background-color: #fff7e5;
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+
+  @media (max-width: 600px) {
+    max-width: 90%;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #DDD;
+  flex-direction: row;
+
+  h2 {
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    font-family: $title-font;
+    color: #aaa;
+    transition: color 0.3s ease;
+
+    &.active_tab {
+      color: #000;
+    }
+  }
+
+  .indicator {
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    width: 25%;
+    background-color: #000;
+    transition: transform 0.3s ease;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: $cream-white;
+    font-family: $main-font;
+
+    @media (max-width: 600px) {
+      padding: 8px;
+      margin: 8px 0;
+    }
+  }
+}
+
+.password_container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+
+  .eye_button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: $light-brown;
+
+    @media (max-width: 600px) {
+      font-size: 18px;
+    }
+  }
+}
+
+.error_message {
+  font-size: 14px;
+  text-align: center;
+  color: #d9534f;
+}
+
+.success_message {
+  font-size: 14px;
+  text-align: center;
+  color: #4caf50;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .header {
+    gap: 10px;
+    flex-direction: row;
+  }
+
+  .indicator {
+    width: 50%;
+  }
+
+  .form {
+    padding: 0 5%;
+  }
+}

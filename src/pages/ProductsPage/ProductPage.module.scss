@@ -1,0 +1,134 @@
+@import "./../../styles/variables.scss";
+
+.product_page {
+  background-color: $cream-white;
+}
+
+.products_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+
+.main_p_container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+.filters_container {
+  font-family: $main-font;
+  border: 1px solid $dark-green;
+  border-radius: 8px;
+  padding: 30px;
+  width: 300px;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 20px;
+}
+
+
+.filter_header {
+  display: flex;
+  font-family: $title-font;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.clear_filters {
+  font-size: 14px;
+  color: $dark-green;
+  cursor: pointer;
+}
+
+.price_section {
+  display: flex;
+  flex-direction: row;
+}
+
+.price_section p {
+  margin: auto 10px;
+}
+
+.price_section input {
+  background-color: $light-brown;
+  font-family: $main-font;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.price_section input[type="number"]::-webkit-inner-spin-button,
+.price_section input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.filter_divider {
+  border-top: 1px solid #ccc;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.clear_btn {
+  background: none;
+  color: inherit;
+  font-size: 14px;
+  font-family: $main-font;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  margin-left: 13px;
+}
+
+@media (min-width: 769px) {
+  .filters_container {
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 0;
+  }
+
+  .main_p_container {
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .filters_container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  .main_p_container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .price_section {
+    flex-direction: column;
+  }
+
+  .clear_filters {
+    font-size: 12px;
+  }
+
+  .clear_btn {
+    font-size: 12px;
+    margin-left: 0;
+  }
+}

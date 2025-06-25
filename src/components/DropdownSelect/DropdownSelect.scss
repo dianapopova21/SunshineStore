@@ -1,0 +1,60 @@
+@import "./../../styles/variables.scss";
+
+.dropdown-select {
+  position: relative;
+  margin: 10px 0;
+}
+
+.select-header {
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-header i {
+  margin-left: 8px;
+}
+
+.options-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: $cream-white;
+  font-family: $main-font;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.options-list li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.options-list li:hover {
+  background-color: $light-brown;
+}
+
+.dropdown-select.open .options-list {
+  display: block;
+}
+
+.arrow-icon {
+  transition: transform 0.4s ease;
+
+  &.rotated {
+    transform: rotate(180deg);
+  }
+}
+
+

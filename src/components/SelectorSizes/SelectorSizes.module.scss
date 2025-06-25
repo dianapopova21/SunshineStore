@@ -1,0 +1,35 @@
+@import "../../../src/styles/variables";
+
+.radio_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.radio_label {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.radio_input {
+  display: none;
+}
+
+.radio_square {
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radio_input:checked + .radio_square {
+  background-color: $light-brown;
+}
+
+.radio_label span {
+  margin-left: 5px;
+}
